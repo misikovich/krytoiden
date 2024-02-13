@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Вам пришло новое предложение!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+            <div class="open-wrapper" id="open-wrapper">
+                <div class="button open-button" id="openbtn">открыть</div>
+            </div>
+            <div class="wrapper" id="glwrapper">
+                <div class="first-text-wrapper">Вам пришло новое предложение!</div>
+                <div class="first-text-wrapper2">от:</div>
+                <div class="image-wrapper hoverable">
+                    <div class="effect" id="red-cross">
+                        <img src="R.png" alt="">
+                    </div>
+                    <div class="effect" id="success">
+                        <img src="success.jpg" alt="">
+                    </div>
+                    <img src="ye.jpg" id="success-image-me" alt="">
+                    <img src="proposition.jpg" id="static-image" alt="">
+                    <video id="video" loop>
+                        <source src="no.mp4" type="video/mp4">
+                    </video>
+                    
+                </div>
+                <div class="btn-group">
+                    <div class="button deny-btn hoverable" id="hover-img">
+                        отклонить
+                        <div class="btn-z-activator-area"></div>
+                    </div>
+                    <div class="button acpt-btn hoverable" id="success-btn">
+                        принять
+                        <div class="btn-v-activator-area"></div>
+                    </div>
+                </div>
+                <div class="effect-group">
+                    
+                </div>
+                
+            </div>
+            <div class="finalvideo" id="finalvideocontainer">
+                <div class="videowrapper">
+                    <video id="finvideo">
+                        <source src="vid.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <audio id="clickSound">
+            <source src="neg-wrongbuzzer.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <audio id="applepaysound">
+            <source src="applepay.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <audio id="devaizsound">
+            <source src="devaiz.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <script src="script.js" async defer></script>
+    </body>
+</html>

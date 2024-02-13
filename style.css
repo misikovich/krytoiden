@@ -252,7 +252,9 @@ div.open-button {
     align-items: center;
     background: #f9f9f9;
 }
-
+#finvideo {
+    width: 100vw;
+}
 #success-image-me {
     display: none;
 }
